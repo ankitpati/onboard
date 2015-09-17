@@ -1,29 +1,7 @@
 /* style.css */
 
 /* downloadable fonts */
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Bold.ttf");
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Italic.ttf");
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
-}
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,400italic");
 /* end of downloadable fonts */
 
 body{

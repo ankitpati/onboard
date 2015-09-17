@@ -1,6 +1,6 @@
 "use strict";
 
-/* mun.js */
+/* script.js */
 
 /* This file is part of MUN OnBoard HTML5 application.
  *
@@ -18,8 +18,6 @@
  *
  * You should have received a copy of the GNU General Public License along  with
  * this program; if not, see <http://www.gnu.org/licenses/>.
- *
- * The GPL v3 text can be found at <./gpl.txt>.
  */
 
 /* constants */
@@ -147,4 +145,4 @@ window.onload = function()
 {
     timerset(TIMERESET);
 };
-/* end of mun.js */
+/* end of script.js */
