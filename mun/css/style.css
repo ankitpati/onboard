@@ -1,0 +1,108 @@
+/* style.css */
+
+/* This file is part of MUN OnBoard HTML5 application.
+ *
+ * Copyright 2013 Ankit Pati <ankitpati@gmail.com>
+ *
+ * This library is free software; you can redistribute it and/or modify it under
+ * the  terms of the GNU Lesser General Public License as published by the  Free
+ * Software Foundation; either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This  library is distributed in the hope that it will be useful, but  WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You  should  have received a copy of the GNU Lesser  General  Public  License
+ * along with this program; if not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* downloadable fonts */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,400italic");
+/* end of downloadable fonts */
+
+body{
+    /*
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    */
+    background-color: #300a24;
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+    font-size: 20pt;
+    cursor: default;
+}
+
+input{
+    background-color: #300a24;
+    font-family: "Ubuntu", sans-serif;
+    border: none;
+}
+
+::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+::-moz-placeholder{
+    color: #ffffff;
+}
+
+textarea{
+    background-color: #300a24;
+    font-family: "Ubuntu", sans-serif;
+    color: #ffffff;
+    font-size: 20pt;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*:focus{
+    outline: 0;
+}
+
+div.bottom{
+    position: fixed;
+    bottom: 10px;
+}
+
+.tyme{
+    font-family: "Ubuntu", sans-serif;
+    color: #ff9900;
+    text-align: left;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+input#mantime{
+    background-color: #300a24;
+    font-family: "Ubuntu", sans-serif;
+    color: #ff9900;
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: left;
+    width: 55px;
+}
+
+#heading{
+    font-family: "Ubuntu", serif;
+    color: #ffffff;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+#image{
+    float: right;
+    width: 320pt;
+    height: 240pt;
+}
+
+#sndhandle{
+    float: right;
+}
+/* end of style.css */

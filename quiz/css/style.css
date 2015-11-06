@@ -1,0 +1,175 @@
+/* style.css */
+
+/* This file is part of Quiz OnBoard HTML5 application.
+ *
+ * Copyright 2010 Ankit Pati <ankitpati@gmail.com>
+ *
+ * This library is free software; you can redistribute it and/or modify it under
+ * the  terms of the GNU Lesser General Public License as published by the  Free
+ * Software Foundation; either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This  library is distributed in the hope that it will be useful, but  WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You  should  have received a copy of the GNU Lesser  General  Public  License
+ * along with this program; if not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* downloadable fonts */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,400italic");
+/* end of downloadable fonts */
+
+h1{
+    font-family : "Ubuntu", sans-serif;
+    color       : #ffffff;
+    text-align  : center;
+}
+
+h2{
+    font-family : "Ubuntu", serif;
+    color       : #ffffff;
+    text-align  : center;
+}
+
+h3{
+    font-family : "Ubuntu", serif;
+    color       : #ffffff;
+    text-align  : center;
+}
+
+body{
+    /*
+    background-image: url("bg.webp");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    */
+    background  : #300a24;
+    font-family : "Ubuntu", sans-serif;
+    color       : #ffffff;
+    font-size   : 20pt;
+    cursor      : default;
+}
+
+button{
+    background    : inherit;
+    font-family   : "Ubuntu", sans-serif;
+    width         : 50px;
+    height        : 50px;
+    color         : #ffffff;
+    font-size     : 20pt;
+    cursor        : default;
+    border        : 0.0625em solid #ffffff;
+    border-radius : 3em;
+    text-align    : center;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*:focus{
+    outline: 0;
+}
+
+.question{
+    font-family : "Ubuntu", sans-serif;
+    color       : inherit;
+    font-size   : 20pt;
+    text-align  : justify;
+}
+
+.opthandle{
+    font-family : "Ubuntu", monospace;
+    font-size   : 15pt;
+}
+
+.next{
+    font-family : "Ubuntu", monospace;
+    font-size   : 15pt;
+}
+
+.option{
+    font-family : "Ubuntu", sans-serif;
+    color       : inherit;
+    font-size   : 20pt;
+}
+
+.show{
+    font-family : "Ubuntu", sans-serif;
+    font-size   : 15pt;
+}
+
+.intro{
+    font-family : "Ubuntu", fantasy;
+    color       : inherit;
+    font-size   : 110pt;
+    width       : 100%;
+    height      : 100%;
+}
+
+.thank{
+    font-family : "Ubuntu", fantasy;
+    color       : inherit;
+    font-size   : 110pt;
+    width       : 100%;
+    height      : 100%;
+}
+
+div.center{
+    text-align: center;
+}
+
+div.right{
+    text-align: right;
+}
+
+div.bottom{
+    background : #300a24;
+    position   : fixed;
+    bottom     : 0px;
+    left       : 0px;
+    width      : 100%;
+}
+
+#result{
+    font-family : "Ubuntu", sans-serif;
+    font-size   : 20pt;
+    color       : #00ff00;
+}
+
+#time{
+    font-family : "Ubuntu", sans-serif;
+    color       : #ff9900;
+    text-align  : right;
+    font-size   : 20pt;
+    font-weight : 800;
+}
+
+#image{
+    float  : right;
+    width  : 40%;
+    height : 40%;
+}
+
+#sndhandle{
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+        font-size: 50pt;
+    }
+
+    .thank{
+        font-size: 50pt;
+    }
+
+    #image{
+        width  : 100%;
+        height : 100%;
+    }
+}
+/* end of style.css */

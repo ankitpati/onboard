@@ -1,0 +1,56 @@
+/* style.css */
+
+/* downloadable fonts */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,400italic");
+/* end of downloadable fonts */
+
+body{
+    background-color    : #300a24;
+    font-family         : "Ubuntu", serif;
+    color               : #ffffff;
+    font-size           : 20pt;
+    cursor              : default;
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    user-select         : none;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 0px;
+}
+
+a{
+    color           : #ffffff;
+    text-decoration : none;
+}
+
+.contact{
+    font-family   : "Ubuntu", serif;
+    color         : #ffffff;
+    font-size     : 18pt;
+    font-weight   : normal;
+    text-align    : center;
+}
+
+.name{
+    font-size   : 25pt;
+    font-weight : bold;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*:focus{
+    outline: 0;
+}
+
+#superset{
+    width         : 350px;
+    margin        : 0 auto;
+    position      : relative;
+    left          : 0px;
+    right         : 0px;
+    margin-bottom : 75px;
+}
+/* end of style.css */
